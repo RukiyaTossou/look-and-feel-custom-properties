@@ -4,7 +4,6 @@
   --primary-color: #fff;
   --accent-color: #ff0000;
   --accent-color-light: #000;
-  --text-main-color:#000;
   --text-secudair-color: #707070;
   --selection-color: #000;
 
@@ -21,8 +20,8 @@
 .buttons-zwart{
   /* style */
     display: block;
-    color:#ffff;
-    background-color:#000000;
+    color:var(--primary-color);
+    background-color:var(--btn-main);
     text-decoration: none;
     /* layout */
     width: 10em;
@@ -30,15 +29,15 @@
   }
   
   .buttons-zwart:hover{
-    background-color: #414141;
+    background-color:var(--hover-btn-main);
     cursor: pointer;
   }
   
   .buttons-wit{
     /* style */
     display: block;
-    background-color: #ffff;
-    color: #000000;
+    background-color: var(--primary-color);
+    color: var(--selection-color);
     border: transparent;
     text-decoration: none;
     /* layout */
@@ -49,13 +48,13 @@
   }
   
   .buttons-wit:hover{
-    background-color: #eeeded;
+    background-color:var(--hover-btn-secundair);
     cursor: pointer;
   }
   
   .buttons-cookies{
     /* style */
-    background-color: #e00404;
+    background-color: var(--btn-special);
     color: #ffff;
     text-decoration: none;
     /* layout */
@@ -64,7 +63,7 @@
   }    
   
   .buttons-cookies:hover{
-    background-color: #ca0505; /*Iets donnkerder rood*/
+    background-color: var(--hover-btn-scpecial); /*Iets donnkerder rood*/
     cursor: pointer;
   }
   .p{
