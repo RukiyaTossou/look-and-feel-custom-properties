@@ -1,66 +1,53 @@
 /* CODE VOOR DE OBA BUTTONS */
-:root {
-    --body-color: #e4e9f7;
-    --primary-color: #fff;
-    --accent-color: #ff0000;
-    --accent-color-light: #000;
-    --text-main-color:#000;
-    --text-secudair-color: #707070;
-    --selection-color: #000;
-  
-
-  /* buttons */
-  --btn-main:#000;
-  --hover-btn-main:#414141;
-  --btn-secundair:#fff; 
-  --hover-btn-secundair:#eeeded;
-  --btn-special:#eb0505;
-  --hover-btn-scpecial:#cd0404;
-} 
 
 .buttons-zwart{
+  /* style */
     display: block;
-    width: 10em;
     color:#ffff;
-    background-color:var(--btn-main);
+    background-color:#000000;
     text-decoration: none;
+    /* layout */
+    width: 10em;
     padding:2px 2px 2px 5px
   }
   
   .buttons-zwart:hover{
-    background-color:var(--btn-main);
+    background-color: #414141;
     cursor: pointer;
   }
   
   .buttons-wit{
+    /* style */
     display: block;
-    width: 5em;
-    background-color: var(--btn-secundair);
-    color:var(--text-main-color);
-    text-decoration: none;
-    padding:2px 3px 3px 5px;
+    background-color: #ffff;
+    color: #000000;
     border: transparent;
-
-    
+    text-decoration: none;
+    /* layout */
+    padding:2px 3px 3px 5px;
+    width: 5em;
   }
   
   .buttons-wit:hover{
-    background-color: var(--hover-btn-secundair);
+    background-color: #eeeded;
     cursor: pointer;
   }
   
   .buttons-cookies{
+    /* style */
+    background-color: #e00404;
     color: #ffff;
-    background-color:var(--btn-special);
     text-decoration: none;
+    /* layout */
     border-radius: 4px;
     padding: 4px 4px 4px 4px;
   }    
   
   .buttons-cookies:hover{
-    background-color: var(--hover-btn-scpecial); /*Iets donker*/
+    background-color: #ca0505; /*Iets donnkerder rood*/
     cursor: pointer;
   }
+  
   .p{
     padding-bottom: 10px;
   }

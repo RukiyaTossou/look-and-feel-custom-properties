@@ -27,11 +27,12 @@
   
     --code-font:'Source Code Pro', monospace;
     --primary-font:"Avenir-roman", "Montserrat", "Poppins", sans-serif; 
+
     /* buttons */
     --btn-main:#000;
     --hover-btn-main:#414141;
     --btn-secundair:#fff; 
-    --hover-btn-secundair:#eeeded;
+    --hover-btn-secundair:#f3f3f3;
     --btn-special:#eb0505;
     --hover-btn-scpecial:#cd0404;
   } 
