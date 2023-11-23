@@ -14,6 +14,7 @@
   }
   
   :root {
+    /* colors */
     --body-color: #e4e9f7;
     --primary-color: #fff;
     --accent-color: #ff0000;
@@ -24,31 +25,20 @@
     --border: 0.1rem solid rgba(0, 0, 0, 0.1);
     --border-hover: 0.1rem solid var(--black);
     --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  
+    
+    /* font */
     --code-font:'Source Code Pro', monospace;
     --primary-font:"Avenir-roman", "Montserrat", "Poppins", sans-serif; 
 
-    /* buttons */
-    --btn-main:#000;
-    --hover-btn-main:#414141;
-    --btn-secundair:#fff; 
-    --hover-btn-secundair:#f3f3f3;
-    --btn-special:#eb0505;
-    --hover-btn-scpecial:#cd0404;
+    /* padding */
+    --padding-text-p: 10px;
+    --padding-text-h1:5px;
+    --padding-text-h2:5px;
+    --padding-text-h3:5px;
+    --padding-text-h4:5px;
   } 
-   /* --ws:1em;
-  
-    --primary-font:"open sans";
-    --heading-font:"avenir" */
-  
-  /* button {
-    padding:var(--ws);
-  }
-  
-  p {
-    padding:var(--ws);
-  } */
-  
+
+
   *,
   *::before,
   *::after {
@@ -91,20 +81,5 @@
     line-height: 1.5;
     font-size: 16px;
     max-width: 35em;
-  }
-  
-  /* pre {
-    background-color: darkslategray;
-    color: rgb(188, 178, 125);
-    min-width: 400px;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 10px;
-    line-height: 1.5;
-  }
-  
-  code {
-    display:block;
-    font-family: var(--code-font); 
   }
   
