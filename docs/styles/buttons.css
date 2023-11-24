@@ -63,7 +63,7 @@
   }    
   
   .buttons-cookies:hover{
-    background-color: var(--hover-btn-scpecial); /*Iets donnkerder rood*/
+    background-color: var(--hover-btn-scpecial); /*Donker rood*/
     cursor: pointer;
   }
   .p{

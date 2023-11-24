@@ -23,7 +23,7 @@
     --selection-color: #000;
   
     --border: 0.1rem solid rgba(0, 0, 0, 0.1);
-    --border-hover: 0.1rem solid var(--black);
+    --border-hover: 0.1rem solid var(--selection-color);
     --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 
     /* font */
